@@ -35,13 +35,15 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * Express
 * Sucrase
 * Docker (With Postgres and MongoDB)
+* Postbird (Cross-platform PostgreSQL GUI client)
 * Sequelize ORM
 * Eslint
 * Prettier
 * bcryptjs (For encryption of user passwords)
 * JWT (Json Web Token - Session control)
 * YUP (Schema validation)
-* Multer (Library that supports multipart form data submission on requests)
+* Multer (Library that supports multipart form data on requests)
 * date-fns (Library to manipulate date)
 * MongoDB
 * Moongoose ORM
+* MongoDB Compass (Mongo GUI)
