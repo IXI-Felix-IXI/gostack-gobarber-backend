@@ -34,7 +34,7 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * Nodemon
 * Express
 * Sucrase
-* Docker (Postgres)
+* Docker (With Postgres and MongoDB)
 * Sequelize ORM
 * Eslint
 * Prettier
@@ -43,3 +43,5 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * YUP (Schema validation)
 * Multer (Library that supports multipart form data submission on requests)
 * date-fns (Library to manipulate date)
+* MongoDB
+* Moongoose ORM

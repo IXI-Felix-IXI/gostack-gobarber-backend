@@ -30,9 +30,12 @@ class SessionController {
         name,
         email,
       },
-      // => 1°) Parâmetro: Payload
-      // => 2°) Parâmetro: Private Key (Site MD5 online para pegar um hash)
-      // => 3°) Parâmetro: Configuração de data de expiração
+
+      /**
+       * => 1°) Parâmetro: Payload
+       * => 2°) Parâmetro: Private Key (Site MD5 online para pegar um hash)
+       * => 3°) Parâmetro: Configuração de data de expiração
+       */
       token: jwt.sign({ id }, authConfig.secret, {
         expiresIn: authConfig.expiresIn,
       }),

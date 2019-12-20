@@ -70,7 +70,6 @@ class AppointmentController {
     /**
      * Verificando disponibilidade do agendamento
      */
-
     const checkAvailability = await Appointment.findOne({
       where: {
         provider_id,

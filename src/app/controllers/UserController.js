@@ -2,9 +2,6 @@ import * as Yup from 'yup';
 import User from '../models/User';
 
 class UserController {
-  //--------------------------------------
-  //  STORE
-  //--------------------------------------
   async store(req, res) {
     // Schema validation (YUP) do 'req.body'
     const schema = Yup.object().shape({
@@ -39,9 +36,6 @@ class UserController {
     });
   }
 
-  //--------------------------------------
-  //  UPDATE
-  //--------------------------------------
   async update(req, res) {
     // Schema validation (YUP) do 'req.body'
     const schema = Yup.object().shape({
