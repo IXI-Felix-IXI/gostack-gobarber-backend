@@ -1,5 +1,5 @@
 <h1 align="center">
-  GoBarber
+  💈    GoBarber    💈
 </h1>
 
 <h3 align="center">
@@ -14,7 +14,7 @@
 $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 ```
 
-## Built With
+## 🔨 Built With
 
 * [Express](http://www.dropwizard.io/1.0.2/docs/) - The restful API framework
 * [ReactJS](https://pt-br.reactjs.org/) - A front-end library to build user interfaces
@@ -26,7 +26,7 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * **Alexandre Felix** - *Full-stack student* - [GitHub profile](https://github.com/IXI-Felix-IXI)
 
 
-## TECHNOLOGIES, TOOLS, DEPENDENCES AND LIBRARIES USED UNTIL THEN
+## Technologies, tools, dependencies and libraries used until then
 
 * NodeJS
 * MVC design pattern
