@@ -8,7 +8,7 @@
 
 ## ⏳ Current Stage
 
-* Under development
+* Backend under development
 
 ```
 $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
