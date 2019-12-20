@@ -6,7 +6,7 @@
   Rocketseat bootcamp project. The project is a web and mobile system for control and interaction between barbershop providers and their customers. It has features like login, schedules, cancellations, notifications, file uploads, etc.
 </h3>
 
-## CURRENT STAGE
+## Current Stage
 
 * Under development
 
