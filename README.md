@@ -6,7 +6,7 @@
   Rocketseat bootcamp project. The project is a web and mobile system for control and interaction between barbershop providers and their customers. It has features like login, schedules, cancellations, notifications, file uploads, etc.
 </h3>
 
-## Current Stage
+## ⏳ Current Stage
 
 * Under development
 
@@ -21,12 +21,12 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * [React Native](https://facebook.github.io/react-native/) - A mobile library to build native apps to Android and iOS
 
 
-## Author
+## 🧙 Author
 
 * **Alexandre Felix** - *Full-stack student* - [GitHub profile](https://github.com/IXI-Felix-IXI)
 
 
-## Technologies, tools, dependencies and libraries used until then
+## 🛸 Technologies, tools, dependencies and libraries used until then
 
 * NodeJS
 * MVC design pattern
