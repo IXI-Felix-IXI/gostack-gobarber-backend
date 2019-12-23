@@ -50,14 +50,23 @@ class AppointmentController {
     /**
      * Verificando se o `provider_id` é realmente de um provider
      */
-    const isProvider = await User.findOne({
+    const checkIsprovider = await User.findOne({
       where: { id: provider_id, provider: true },
     });
 
-    if (!isProvider) {
+    if (!checkIsprovider) {
       return res
         .status(401)
         .json({ error: 'You can only create appointments with providers' });
+    }
+
+    /**
+     * Verificação para que o usuário não possa marcar um agendamento para ele mesmo
+     */
+    if (provider_id === req.userId) {
+      return res
+        .status(401)
+        .json({ error: 'Users cannot create appointments for themselves' });
     }
 
     /**
