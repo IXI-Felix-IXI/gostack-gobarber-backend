@@ -23,9 +23,7 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 
 ## 🧙 Author
 
-* **Alexandre Felix** - *Full-stack student* - [GitHub profile](https://github.com/IXI-Felix-IXI)
-
-[Linkedin](https://www.linkedin.com/in/alexandrefelix1991/?locale=en_US)
+* **Alexandre Felix** - *Full-stack student* -   [GitHub profile](https://github.com/IXI-Felix-IXI)   -   [Linkedin](https://www.linkedin.com/in/alexandrefelix1991/?locale=en_US)
 
 
 ## 🛸 Technologies, tools, dependencies and libraries used until then
