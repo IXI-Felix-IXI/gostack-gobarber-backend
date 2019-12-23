@@ -26,7 +26,8 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * **Alexandre Felix** - *Full-stack student* -   [GitHub profile](https://github.com/IXI-Felix-IXI)   -   [LinkedIn](https://www.linkedin.com/in/alexandrefelix1991/?locale=en_US)
 
 
-## 🛸 Technologies, tools, dependencies and libraries used until then
+## 🛸 Technologies, tools, extensions, dependencies and libraries used until then
+=> BACKEND
 
 * NodeJS
 * MVC design pattern
@@ -34,7 +35,7 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * Nodemon
 * Express
 * Sucrase
-* Docker (With Postgres and MongoDB)
+* Docker (With Postgres, MongoDB, Redis)
 * Postbird (Cross-platform PostgreSQL GUI client)
 * Sequelize ORM
 * Eslint
@@ -49,3 +50,4 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * MongoDB Compass (Mongo GUI)
 * Nodemailer (With Mailtrap for testing and development purpose)
 * Handlebars (Template engine)
+* bee-queue (Job/task queue for Node.js, backed by Redis)
