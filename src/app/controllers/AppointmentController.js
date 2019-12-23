@@ -127,9 +127,6 @@ class AppointmentController {
   }
 
   async delete(req, res) {
-    // Utilizando a função include do Sequelize para inserir as
-    // informações do prestador de servidor dentro da variável `appointment`
-    // Essas informações serão utilizadas para o envio do email notificando o cancelamento
     const appointment = await Appointment.findByPk(req.params.id, {
       include: [
         {
@@ -137,8 +134,23 @@ class AppointmentController {
           as: 'provider',
           attributes: ['name', 'email'],
         },
+        {
+          model: User,
+          as: 'user',
+          attributes: ['name'],
+        },
       ],
     });
+
+    // Verificando se o ID de agendamento informado existe
+    if (!appointment) {
+      return res.status(400).json({ error: 'Appointment does not exists' });
+    }
+
+    // Verificando se o agendamento já não se encontra cancelado
+    if (appointment.canceled_at) {
+      return res.status(400).json({ error: 'Schedule already canceled' });
+    }
 
     // Verificando se o usuário esta tentando deletar um agentamento que não é dele
     if (appointment.user_id !== req.userId) {
@@ -168,7 +180,14 @@ class AppointmentController {
     await Mail.sendMail({
       to: `${appointment.provider.name} <${appointment.provider.email}>`,
       subject: 'Agendamento cancelado',
-      text: 'Você tem um novo cancelamento',
+      template: 'cancellation',
+      context: {
+        provider: appointment.provider.name,
+        user: appointment.user.name,
+        date: format(appointment.date, "'dia' dd 'de' MMMM', às' H:mm'h'", {
+          locale: pt,
+        }),
+      },
     });
 
     return res.json(appointment);
