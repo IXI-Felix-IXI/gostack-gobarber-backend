@@ -47,3 +47,4 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 * MongoDB
 * Moongoose ORM
 * MongoDB Compass (Mongo GUI)
+* Nodemailer (With Mailtrap for testing and development purpose)
