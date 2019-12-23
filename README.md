@@ -16,7 +16,7 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 
 ## 🔨 Built With
 
-* [Express](http://www.dropwizard.io/1.0.2/docs/) - The restful API framework
+* [Express](https://expressjs.com/) - The restful API framework
 * [ReactJS](https://pt-br.reactjs.org/) - A front-end library to build user interfaces
 * [React Native](https://facebook.github.io/react-native/) - A mobile library to build native apps to Android and iOS
 
@@ -24,6 +24,8 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 ## 🧙 Author
 
 * **Alexandre Felix** - *Full-stack student* - [GitHub profile](https://github.com/IXI-Felix-IXI)
+
+[Linkedin](https://www.linkedin.com/in/alexandrefelix1991/?locale=en_US)
 
 
 ## 🛸 Technologies, tools, dependencies and libraries used until then
