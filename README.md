@@ -27,7 +27,7 @@ $> git clone https://github.com/IXI-Felix-IXI/gostack-gobarber.git
 
 
 ## 🛸 Technologies, tools, extensions, dependencies and libraries used until then
-=> BACKEND
+BACKEND
 
 * NodeJS
 * MVC design pattern
