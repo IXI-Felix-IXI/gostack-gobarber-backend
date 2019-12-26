@@ -51,3 +51,6 @@ BACKEND
 * Nodemailer (With Mailtrap for testing and development purpose)
 * Handlebars (Template engine)
 * bee-queue (Job/task queue for Node.js, backed by Redis)
+* Sentry.io (Error monitoring)
+* express-async-errors (Extension to catch async errors)
+* youch (pretty error reporting for Node.js)
