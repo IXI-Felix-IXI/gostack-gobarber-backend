@@ -54,3 +54,4 @@ BACKEND
 * Sentry.io (Error monitoring)
 * express-async-errors (Extension to catch async errors)
 * youch (pretty error reporting for Node.js)
+* dotenv (loading environment variables)

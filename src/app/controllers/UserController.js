@@ -14,7 +14,7 @@ class UserController {
         .min(6),
     });
 
-    // Verificando se o 'req.body' esta sendo passado conforme o schema
+    // // Verificando se o 'req.body' esta sendo passado conforme o schema
     if (!(await schema.isValid(req.body))) {
       return res.status(400).json({ error: 'Validation fails.' });
     }
